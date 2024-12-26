@@ -1,5 +1,5 @@
 name: Steps workflow
-on: push
+on: workflow_dispatch
 jobs:
   num-job:
     runs-on: ubuntu-latest
