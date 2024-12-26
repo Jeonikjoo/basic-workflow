@@ -10,4 +10,4 @@ jobs:
           repository: actions/checkout
           ref: v3
       - run: ls -al
-      - run: cat Changelog.md
+      - run: cat CHANGELOG.md
