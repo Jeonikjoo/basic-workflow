@@ -7,6 +7,6 @@ on:
 
 jobs:
   Jobs-Names-github-action-workflow_call-01:
-    uses: ./.github/workflows/github-action-workflow_call-01.yml
+    uses: ./.github/workflows/github-action-workflow_call.yml
     with:
       environment: production
