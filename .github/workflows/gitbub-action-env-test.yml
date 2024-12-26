@@ -10,7 +10,7 @@ jobs:
     steps:
       - run: echo 'Hi ${{ env.mascot }}'  # Hi Mona
         env: 
-          mascot: ${{vars.test}}
+          mascot: ${{ vars.test }}
       - run: echo 'Hi ${{ env.mascot }}'  # Hi Octocat
         env:
           mascot: Octocat
