@@ -10,4 +10,5 @@ jobs:
           repository: actions/checkout
           ref: v3
       - run: ls -al
+      - run: pwd
       - run: cat CHANGELOG.md
